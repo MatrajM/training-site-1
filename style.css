@@ -1,12 +1,47 @@
+/*
 * {
-  box-sizing: border-box;
-  margin: 0 auto; }
-
+    box-sizing: border-box;
+    margin:0 auto;
+}
+*/
 .jumbotron {
   width: 100%;
   height: 100vh;
   text-align: center;
   overflow: hidden;
   background: url("images/bg.png") center/cover; }
+
+.navigation {
+  list-style: none;
+  margin-top: 10px;
+  margin-right: 250px;
+  height: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end; }
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  color: white; }
+
+.flex-nav-item {
+  padding: 0 30px;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-size: 15px; }
+
+.logo {
+  justify-content: flex-start;
+  margin-left: 250px;
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold; }
+
+.contact-btn {
+  border: solid 1px white;
+  border-radius: 25px;
+  line-height: 30px; }
 
 /*# sourceMappingURL=style.css.map */
