@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif; }
 
 .jumbotron {
   width: 100%;
@@ -11,9 +12,10 @@ body {
 
 .navigation {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: 250px;
-  height: 10px;
+  height: 1px;
+  line-height: 30px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end; }
@@ -41,5 +43,42 @@ body {
   border: solid 1px white;
   border-radius: 25px;
   line-height: 30px; }
+
+.logo-style-2 {
+  font-weight: 300; }
+
+.logo-style-1 {
+  font-weight: 700; }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  padding: 30px;
+  margin: 0 auto;
+  flex-flow: column; }
+
+.header-promo {
+  color: white; }
+  .header-promo h1 {
+    font-size: 35px;
+    width: 100%; }
+  .header-promo p {
+    opacity: 0.4; }
+
+.btn-header {
+  padding: 10px; }
+
+.btn-header:hover {
+  transform: scale(1.1); }
+
+.scroll {
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end; }
 
 /*# sourceMappingURL=style.css.map */
