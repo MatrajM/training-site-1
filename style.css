@@ -1,7 +1,8 @@
 body {
   box-sizing: border-box;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  max-width: 1920; }
 
 .jumbotron {
   width: 100%;
@@ -80,5 +81,32 @@ body {
   justify-content: center;
   align-items: center;
   align-self: flex-end; }
+
+.icon-section {
+  display: flex;
+  height: 30vh;
+  width: 80%;
+  margin: 5% 10%;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  text-align: center; }
+  .icon-section h3 {
+    font-size: 30px;
+    background: linear-gradient(45deg, #c10029, #e06a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .icon-section p {
+    font-size: 15px; }
+
+.icon-ask {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 20vh; }
+
+.icon-item {
+  width: 350px;
+  padding: 30px; }
 
 /*# sourceMappingURL=style.css.map */
