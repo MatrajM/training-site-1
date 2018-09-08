@@ -109,4 +109,38 @@ body {
   width: 350px;
   padding: 30px; }
 
+.drone-section {
+  display: flex;
+  height: 60vh;
+  width: 90%;
+  margin: 5% 10%;
+  justify-content: left;
+  align-self: flex-start;
+  background-image: url("images/drone-back.png");
+  background-repeat: no-repeat;
+  background-position: right; }
+
+.drone-info h1 {
+  font-size: 50px;
+  background: linear-gradient(45deg, #c10029, #e06a00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+.drone-info p {
+  width: 700px; }
+
+.drone-list {
+  width: 60vw;
+  display: flex;
+  height: 400px;
+  flex-flow: column wrap;
+  overflow: auto;
+  align-content: flex-start; }
+
+.drone-item {
+  padding: 30px;
+  width: 400px;
+  align-self: flex-start; }
+  .drone-item img {
+    float: left; }
+
 /*# sourceMappingURL=style.css.map */
