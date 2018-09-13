@@ -261,3 +261,17 @@ form{
     height:60vh;
     width:100%;
   }
+.footer {
+    display: flex;
+    justify-content: center;
+    height:25vh;
+    width:100%;
+    margin-top:2%;
+    p{
+        
+        text-align: center;
+        opacity: 0.5;
+        color:grey;
+        width: 600px;
+    }
+}
